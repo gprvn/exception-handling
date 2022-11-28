@@ -86,5 +86,4 @@ The catch block must be used after the try block only. You can use multiple catc
 
 Internal Working of Java try-catch block::
 
-
-
+![java-try-catch-block](https://user-images.githubusercontent.com/41448424/204341795-8b266b2c-a68d-4ea6-95a0-8681cd7beade.png)
