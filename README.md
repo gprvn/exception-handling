@@ -87,3 +87,10 @@ The catch block must be used after the try block only. You can use multiple catc
 Internal Working of Java try-catch block::
 
 ![java-try-catch-block](https://user-images.githubusercontent.com/41448424/204341795-8b266b2c-a68d-4ea6-95a0-8681cd7beade.png)
+
+The JVM firstly checks whether the exception is handled or not. If exception is not handled, JVM provides a default exception handler that performs the following tasks:
+
+->	Prints out exception description.
+->	Prints the stack trace (Hierarchy of methods where the exception occurred).
+->	Causes the program to terminate.
+But if the application programmer handles the exception, the normal flow of the application is maintained, i.e., rest of the code is executed.
