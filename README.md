@@ -94,3 +94,12 @@ The JVM firstly checks whether the exception is handled or not. If exception is 
 ->	Prints the stack trace (Hierarchy of methods where the exception occurred).
 ->	Causes the program to terminate.
 But if the application programmer handles the exception, the normal flow of the application is maintained, i.e., rest of the code is executed.
+
+Java Catch Multiple Exceptions::
+Java Multi-catch block::
+A try block can be followed by one or more catch blocks. Each catch block must contain a different exception handler. So, if you have to perform different tasks at the occurrence of different exceptions, use java multi-catch block.
+
+Points to remember::
+At a time only one exception occurs and at a time only one catch block is executed.
+All catch blocks must be ordered from most specific to most general, i.e. catch for ArithmeticException must come before catch for Exception.
+Flowchart of Multi-catch Block::
