@@ -1,4 +1,4 @@
-package io.exception;
+package io.exception.try_catch;
 
 public class JavaException05 {
 	public static void main(String[] args) {

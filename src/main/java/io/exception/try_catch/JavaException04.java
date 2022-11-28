@@ -1,4 +1,4 @@
-package io.exception;
+package io.exception.try_catch;
 
 //defining custom message
 public class JavaException04 {
