@@ -103,3 +103,5 @@ Points to remember::
 At a time only one exception occurs and at a time only one catch block is executed.
 All catch blocks must be ordered from most specific to most general, i.e. catch for ArithmeticException must come before catch for Exception.
 Flowchart of Multi-catch Block::
+![multiple-catch-block-in-java](https://user-images.githubusercontent.com/41448424/204348863-44a6bd62-de5f-44ee-9906-e461a6acec99.png)
+
