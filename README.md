@@ -105,3 +105,8 @@ All catch blocks must be ordered from most specific to most general, i.e. catch 
 Flowchart of Multi-catch Block::
 ![multiple-catch-block-in-java](https://user-images.githubusercontent.com/41448424/204348863-44a6bd62-de5f-44ee-9906-e461a6acec99.png)
 
+Java Exception Propagation::
+An exception is first thrown from the top of the stack and if it is not caught, it drops the call stack to the 
+previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
+
+Note: By default Unchecked Exceptions are forwarded in calling chain (propagated).
