@@ -110,3 +110,17 @@ An exception is first thrown from the top of the stack and if it is not caught, 
 previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
 
 Note: By default Unchecked Exceptions are forwarded in calling chain (propagated).
+
+
+Java Custom Exception::
+In Java we can create our own exception that are derived classes of the exception class.
+Creating our own Exception is known as custom exception or user-defined exception. Basically, Java custom exceptions are used to customize the exception according to user need.
+
+Why use custom exception::
+Java exceptions cover almost all the general type of exceptions that may occure in the programming.
+However, we sometimes need to create custom exceptions.
+
+Following are few of the reasons to use custom exceptions:
+-> 	To catch and provide specific treatment to a subset of existing Java exceptions.
+->	Business logic exceptions: These are the exceptions related to business logic and workflow, it is userful for the application users or the developers to understand the exact problem.	
+
