@@ -1,10 +1,8 @@
 package io.exception.child_parent;
 
-import java.io.IOException;
-
 /**
  * 
- * @author praveenrao 
+ *  @author praveenrao 
  * 		1. If the superclass method does not declare an exception:
  *         If the superclass method does not declare an exception, subclass
  *         overridden method can not declare the cheked exception, but it can
@@ -13,19 +11,19 @@ import java.io.IOException;
  *         declare an exception, subclass overridden method can not declare the
  *         checked exception but can declare unchecked exception.
  */
-class Parent {
+class Parent01 {
 	void msg() {
 		System.out.println("parent method");
 	}
 }
 
-public class ExceptionChild extends Parent {
-	void msg() throws IOException
-		System.out.println("ExceptionChild");
+public class ExceptionChild2 extends Parent02 {
+	void msg() throws ArithmeticException { // thorwing an unchecked exception
+		System.out.println("Child Method");
 	}
 
 	public static void main(String[] args) {
-		Parent p = new ExceptionChild();
+		Parent02 p = new ExceptionChild2();
 		p.msg();
 	}
 }
